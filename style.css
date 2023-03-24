@@ -1,0 +1,11 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    background-color: #FEE4E4;
+}
