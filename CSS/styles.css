@@ -5,8 +5,8 @@ html {
 }
 
 body {
-    margin:0px;
-    padding:0px;
+    margin:0;
+    padding:0;
     background-color: var(--background);
     font-size: min(max(0.75rem, 2vw), 1.25rem);
     font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
@@ -14,12 +14,18 @@ body {
     overflow: auto;
     color: var(--ink);
     padding: 0 2rem;
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .container {
+    display:flex;
     box-sizing: border-box;
     overflow-y: auto;
     width: min(max(15rem, 98%), 75rem);
-    margin-left:auto;
-    margin-right:auto;
 }            
+
+section#biglogo {
+
+} 
