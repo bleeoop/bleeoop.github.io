@@ -2,7 +2,6 @@
 const svgFiles = [
     'SVG/palette_template.svg',
     'SVG/oldlogo.svg',
-
   ];
   
   // Function to load and inject an SVG inline
@@ -23,7 +22,7 @@ const svgFiles = [
       const svgContent = await response.text();
   
       // Inject the SVG into the HTML
-      const container = document.getElementById('svg-container');
+      const container = document.getElementById('biglogo');
       container.innerHTML = svgContent;
     } catch (error) {
       console.error('Error loading SVG:', error);

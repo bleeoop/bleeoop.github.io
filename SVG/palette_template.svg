@@ -11,11 +11,11 @@
       }
 
       .cls-3 {
-        fill: var(--midshade);
+        fill: var(--shademid);
       }
 
       .cls-4 {
-        fill: var(--lightshade);
+        fill: var(--shadelight);
       }
 
       .cls-5 {
