@@ -3,23 +3,23 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #231f20;
+        fill: var(--ink);
       }
 
       .cls-2 {
-        fill: #fff;
+        fill: (var--background);
       }
 
       .cls-3 {
-        fill: #565656;
+        fill: var(--midshade);
       }
 
       .cls-4 {
-        fill: #bfbfbf;
+        fill: var(--lightshade);
       }
 
       .cls-5 {
-        fill: #ee2625;
+        fill: var(--accent);
       }
     </style>
   </defs>
