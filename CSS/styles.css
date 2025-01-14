@@ -8,5 +8,18 @@ body {
     margin:0px;
     padding:0px;
     background-color: var(--background);
-    color: var(--accent);
+    font-size: min(max(0.75rem, 2vw), 1.25rem);
+    font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+    line-height: 130%;
+    overflow: auto;
+    color: var(--ink);
+    padding: 0 2rem;
 }
+
+.container {
+    box-sizing: border-box;
+    overflow-y: auto;
+    width: min(max(15rem, 98%), 75rem);
+    margin-left:auto;
+    margin-right:auto;
+}            
