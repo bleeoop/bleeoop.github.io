@@ -1,7 +1,7 @@
 // Array of SVG file URLs
 const svgFiles = [
     'SVG/palette_template.svg',
-    'SVG/oldlogo.svg',
+    'SVG/BLPhd01.svg',
   ];
   
   // Function to load and inject an SVG inline
