@@ -1,6 +1,5 @@
 // Array of SVG file URLs
 const svgFiles = [
-    'SVG/palette_template.svg',
     'SVG/BLPhd01.svg',
     'SVG/BLPhd02.svg',
   ];
