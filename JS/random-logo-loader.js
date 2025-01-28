@@ -2,6 +2,8 @@
 const svgFiles = [
     'SVG/BLPhd01.svg',
     'SVG/BLPhd02.svg',
+    'SVG/BLPhd03.svg',
+    'SVG/BLPhd04.svg',
   ];
   
   // Function to load and inject an SVG inline
