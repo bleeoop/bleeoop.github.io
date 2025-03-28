@@ -43,10 +43,6 @@ a:visited {
     width: min(max(15rem, 98%), 75rem);
 }            
 
-section#biglogo {
-
-} 
-
 .title-bar {
     background-color: var(--ink);
     width: 100%;
