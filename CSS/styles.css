@@ -10,6 +10,7 @@ body {
     background-color: var(--background);
     font-size: min(max(0.75rem, 2vw), 1.25rem);
     font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+    font-weight: 500;
     line-height: 130%;
     overflow: auto;
     color: var(--ink);
@@ -17,6 +18,22 @@ body {
     max-width: 1200px;
     margin-left:auto;
     margin-right:auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: var(--ink);
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+a:visited {
+    color: var(--ink)
 }
 
 .container {
@@ -29,3 +46,75 @@ body {
 section#biglogo {
 
 } 
+
+.title-bar {
+    background-color: var(--ink);
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 1.5rem;
+  }
+
+  .title-bar h2 {
+    color: var(--background);
+    margin: 0;
+    padding: 0 1rem;
+  }
+  
+
+.table-header {
+    margin: 1rem 0 0.5rem 0; 
+}
+
+.table-titles {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 ;
+    font-weight:200;
+}
+
+.table-titles .project-category {
+    flex: 2;
+  }
+  
+  .table-titles .project-title {
+    flex: 3;
+  }
+  
+  .table-titles .project-notes {
+    flex: 4;
+  }
+  
+  .table-titles .date {
+    flex: 1;
+  }
+
+  .project-list {
+    margin: 0 0;
+    border-top: 1px solid var(--ink);
+  }
+
+  .project-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--ink);
+    font-weight:300;
+  }
+
+  .project-title {
+    flex: 3;
+  }
+  
+  .project-notes {
+    flex: 4;
+  }
+  
+  .date {
+    flex: 1;
+  }
+
+  .category {
+    flex: 2;
+  }
